@@ -69,7 +69,7 @@ Last a check was performed on thw student data to ensure that the grades were re
 >
 >**Table showing Thomas High School’s performance relative to the other schools from the Terminal:**
 >
->![top_school](./Resources/top_schools.png)
+>![top_school](./Resources/top_schools.PNG)
 
 >**Scores by School Spending:**
 >
