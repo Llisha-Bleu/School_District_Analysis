@@ -52,21 +52,33 @@ Last a check was performed on thw student data to ensure that the grades were re
 >4. % Passing Reading reduced by `1.1%`. This went from `97.3%` to `69.7%`.
 >5. % Overall Passing reduced by `1.08%`. This went from `90.9%` to `65.07%`.
 >6. With the descrepancies removed from the dataset, it is now clear that the correct number of students that passed the Math and Reading test at Thomas High School is `1, 064` from the `1, 635` students that too the test.
+>
+>
 >**Table showing School Summary Results from the Terminal:**
 >
 >![school_summary](./Resources/school_summary_df.png)
 
 ### How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 > By replacing the ninth (9th) graders scores from Thomas High school, the performance of said school went from  went from number two (2) on the list to eighth as it relates to the school's performance compared to the other schools on said list.
+>
+>
+>**Table showing Thomas High School’s performance relative to the other schools from the Terminal:**
+>
+>![top_school](./Resources/top_schools.PNG)
 
 ### How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools:
 >**Math and reading Scores by Grade:**
 >- Grades ten to twelve (10-12) scores remains unchanged, since the changes made were only applied to grade nine (9), where scores where changed to reflect NaNs, which indicates that there are no scores in place.
 >
 >
->**Table showing Thomas High School’s performance relative to the other schools from the Terminal:**
+>**Table showing Reading Scores relative to the other schools from the Terminal:**
 >
->![top_school](./Resources/top_schools.PNG)
+>![reading_scores](./Resources/reading_scores.png)
+>
+>
+>**Table showing Math Scores relative to the other schools from the Terminal:**
+>
+>![math_scores](./Resources/math_scores.png)
 
 >**Scores by School Spending:**
 >
