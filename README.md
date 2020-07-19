@@ -6,7 +6,7 @@ Previous analysis indicated some evidence of academdic dishonesty; specifically 
 
 1. Replace ninth (9th) grade reading and match scores
 2. Repeat the school district analysis
-3. Pre pare a report that details how the changes affected the overall analysis
+3. Prepare a report that details how the changes affected the overall analysis
 
 
 Working with the `students_complete.csv` dataset, Pandas `loc` method and conditional statements with comparison and logical operators will be used to find the requested results. The results will be printed to the command line and saved to file `PyCitySchools_Challenge.ipynb`.
