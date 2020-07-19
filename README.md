@@ -127,6 +127,6 @@ Last a check was performed on thw student data to ensure that the grades were re
 >1. The district and school summary DataFrames were reassessed. Changes made reflected a reduction between `1%` and `1.08%`
 >2. The High-Low performing schools outcome was recalculated. This resulted in Thomas High moving to number `8th` on the list in regards to performance.
 >3. Score by grade, school spending, school size and school type were recalculated. Here a significant reduction was spotted and can be anywhere between `6%` and `7%`.
->4. No scores were submitted for Thomas High ninth (9th) grade.
+>4. No scores were submitted for Thomas High ninth (9th) grade. All other grades remained unchanged.
 
 
