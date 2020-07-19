@@ -20,16 +20,13 @@ The purpose of this analysis is to identfy and replace the math and reading scor
 
 ## School District Results
 The previous analysis perfomed indicated that information has been altered. The initiative have been made to replace those grades with NaNs. To do so the below scipt following script was applied utilizing the `loc` method:
-> Step 2. Use the loc method on the student_data_df to select all the reading scores from the 9th grade at Thomas High School and replace them with NaN
->   student_data_df.loc[(student_data_df["school_name"] == "Thomas High School") & (student_data_df["grade"] =="9th") & (student_data_df["reading_score"] <= 100),"reading_score"] = np.nan
+>   `student_data_df.loc[(student_data_df["school_name"] == "Thomas High School") & (student_data_df["grade"] =="9th") & (student_data_df["reading_score"] <= 100),"reading_score"] = np.nan`
 
 The above code was refactored soon after to replace match scores with NaNs using:
-> Step 3. Refactor the code in Step 2 to replace the math scores with NaN.
->   student_data_df.loc[(student_data_df["school_name"] == "Thomas High School") & (student_data_df["grade"] =="9th") & (student_data_df["math_score"] <= 100),"math_score"] = np.nan
+>   `student_data_df.loc[(student_data_df["school_name"] == "Thomas High School") & (student_data_df["grade"] =="9th") & (student_data_df["math_score"] <= 100),"math_score"] = np.nan`
 
 Last a check was performed on thw student data to ensure that the grades were replaced with NaNs. please see the code used below:
-> Step 4. Check the student data for NaN's. 
->   student_data_df.tail(10)
+>   `student_data_df.tail(10)`
 
 >**Table showing a check on student data for NaNs from the Terminal:**
 >
