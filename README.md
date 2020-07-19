@@ -24,11 +24,11 @@ The previous analysis perfomed indicated that information has been altered. The 
 >   student_data_df.loc[(student_data_df["school_name"] == "Thomas High School") & (student_data_df["grade"] =="9th") & (student_data_df["reading_score"] <= 100),"reading_score"] = np.nan
 
 The above code was refactored soon after to replace match scores with NaNs using:
->Step 3. Refactor the code in Step 2 to replace the math scores with NaN.
+> Step 3. Refactor the code in Step 2 to replace the math scores with NaN.
 >   student_data_df.loc[(student_data_df["school_name"] == "Thomas High School") & (student_data_df["grade"] =="9th") & (student_data_df["math_score"] <= 100),"math_score"] = np.nan
 
 Last a check was performed on thw student data to ensure that the grades were replaced with NaNs. please see the code used below:
->#Step 4. Check the student data for NaN's. 
+> Step 4. Check the student data for NaN's. 
 >   student_data_df.tail(10)
 
 >**Table showing a check on student data for NaNs from the Terminal:**
